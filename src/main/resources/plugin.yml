@@ -1,0 +1,15 @@
+name: ChestReloaded
+version: 1.0
+main: org.shaku.ChestReloaded2.ChestReloaded2
+api-version: 1.21
+commands:
+  bxr:
+    description: 获取副本宝箱
+    usage: |
+      /bxr get <副本名> <等级> [数量]
+      /bxr get <副本名> <玩家> <等级> [数量]
+    permission: chestreloaded.admin
+permissions:
+  chestreloaded.admin:
+    description: 允许使用宝箱指令
+    default: op
